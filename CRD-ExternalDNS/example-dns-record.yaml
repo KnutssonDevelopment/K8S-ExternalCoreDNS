@@ -1,0 +1,11 @@
+apiVersion: "example.com/v1"
+kind: ExternalDNSRecord
+metadata:
+  name: my-sample-dns-record
+  namespace: default
+spec:
+  dnsName: "example.com"
+  recordType: "A"
+  values:
+    - "192.0.2.1"
+
